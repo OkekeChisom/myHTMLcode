@@ -1,0 +1,57 @@
+.header{
+    background-color: aqua;
+    position: fixed;
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header nav a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.header nav :hover {
+    background-color: red;
+    cursor: pointer;
+} 
+.ass{
+    background-color: red;
+}
+
+.button{
+    background-color: #a76c;
+    font-size: 20px;
+    font-weight: 20px;
+    color: rgb(138, 43, 226);
+    border: 2px solid #00ad;
+    border-radius: 4px;
+    transition: all 0.3s ease-in;
+    box-shadow: 0px 4px 6px;
+    padding: 12px 30px;
+    
+}
+.button:hover{
+    background-color: rgb(159, 231, 24);
+    border: 4px lightgreen;
+    transform: scale3d(1.08);
+    box-shadow: 0px 7px 9px #000;
+    color: #344bce;
+} 
+
+.boy{
+    transition: all 0.3s ease-in;
+    
+
+}
+.boy:hover{
+    background-color: red;
+    transform: rotate3d(3s);
+    cursor: pointer;
+    color: #e49;
+}
+
+
+
